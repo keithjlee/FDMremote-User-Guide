@@ -1,3 +1,14 @@
+\subsection{General notes}
+\begin{enumerate}
+    \item The global XY plane is the ground plane of the network: many utility components will not work as expected if assumed otherwise.
+    \item Network edges are topological only: curved edges will be redefined as straight lines between start and end nodes
+    \item Turn on object snapping to ensure that curves are connected to each other, and nodes are not floating in space. If importing geometry, try adjusting the Tolerance input when creating a network if errors occur.
+    \item FDMremote is \textbf{unit agnostic}. It is up to you to ensure that values of force density and external loads are consistent with the geometric units used on the Rhino canvas.
+    \item Many utility functions (Bake, Maker, CtrlSurfQ, CtrlSurfP) are based on bounding boxes aligned to the global axes. They will work best when your drawn network is somewhat aligned with these axes. I.e., try and make sure the longest span of your input network is aligned with either the global X or Y axis. If one span is significantly longer than the other, align this span with the global X axis.
+\end{enumerate}
+
+The examples below can be downloaded \href{https://www.food4rhino.com/en/app/fdmremote?lang=en}{here}. A general architecture diagram is provided in each section: \textbf{black} arrows and borders define mandatory component interactions, {\color{gray} \textbf{gray}} arrows define optional (but useful) interactions.
+
 \subsection{A simple network}
 
 

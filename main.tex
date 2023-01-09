@@ -43,11 +43,14 @@
 \newpage
 
 \section{Introduction}
-This is a brief guide to using \doclink{https://github.com/keithjlee/FDMremote_GH}{FDMremote}, a twin package consisting of a high-performing Julia solver back-end and a front-facing set of native Grasshopper components for the design and analysis of Tension or Compression networks using the \doclink{https://www.sciencedirect.com/science/article/abs/pii/0045782574900450}{Force Density Method (FDM)}.
+This is a brief guide to using \doclink{https://github.com/keithjlee/FDMremote_GH}{FDMremote}, a twin package consisting of a high-performing Julia solver back-end and a front-facing set of native Grasshopper components for the design and analysis of Tension or Compression networks using the \doclink{https://www.sciencedirect.com/science/article/abs/pii/0045782574900450}{Force Density Method (FDM)}. The Julia-Grasshopper connection is made possible through modification of the WebSocket components in 
+ the \href{https://www.food4rhino.com/en/app/bengesht}{Bengesht} plugin by Behrooz Tahanzadeh.
+
+This plugin was developed through the Digital Structures research group at the Massachusetts Institute of Technology by Keith J. Lee and Adam Burke. 
 
 \section{Installation} \label{sec:installation}
 
-\subsection*{Installing FDMremote\_GH}
+\subsection{Installing FDMremote\_GH}
 \begin{center}
     {\color{kpink} FDMremote has only been tested on Windows computers + Rhino 7.}
 \end{center}
@@ -61,7 +64,7 @@ This is a brief guide to using \doclink{https://github.com/keithjlee/FDMremote_G
 
 You can now start designing and analyzing simple networks!
 
-\subsection*{Installing FDMremote.jl}
+\subsection{Installing FDMremote.jl}
 To achieve much faster analysis, design more complex networks, and perform optimization, you must install FDMremote.jl. 
 
 \begin{enumerate}
@@ -75,6 +78,7 @@ To achieve much faster analysis, design more complex networks, and perform optim
 
 \newpage
 \section{Design Workflow} \label{sec:workflow}
+Refer to \nameref{sec:components} for detailed information on each component. 
 \input{workflows.tex}
 
 

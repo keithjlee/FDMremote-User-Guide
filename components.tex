@@ -278,6 +278,7 @@ Outputs:
     \item \textbf{WebSocket object} (WSC): WebSocket object that communicates with Julia server 
 \end{itemize}
 
+It is recommended to start the Julia server by running \texttt{FDMsolve!()} before using this component.
 \subsubsection{Remote Send (FDMsend)} \label{FDMsend}
 Send network information to the Julia server.
 
@@ -645,11 +646,11 @@ Inputs:
     \item \textbf{Straight Spacing} (Spacing): Spacing between edges in aligned row visualization. {\color{gray} Default: 10}
     \item \textbf{Show Straight} (Straight): Show aligned edges. {\color{gray} Default: true}
     \item \textbf{Show Projection} (Projection): Show 2D projection. {\color{gray} Default: true}
-    \item \textbf{Show Pairs} (Pairs): Show edge-edge pairs between network and visualizations. {\color{gray} Default: faluse}
+    \item \textbf{Show Pairs} (Pairs): Show edge-edge pairs between network and visualizations. {\color{gray} Default: false}
     \item \textbf{PairColour} (Cpair): Colour of edge-edge pair lines. {\color{gray} Default: gray}
     \item \textbf{Text Size} (TextSize): Size of text tags. {\color{gray} Default: 3}
     \item \textbf{Show Text} (Text): Show text tags. {\color{gray} Default: true}
-    \item \textbf{Text Colour} (Ctext): Colour of text tags. {\color{gray} Default: black}
+    \item \textbf{Text Colour} (Ctext): Colour of text tags. {\color{gray} Default:} black
     \item \textbf{Straight Offset} (StraightOffset); Offset of aligned edge visualization.
     \item \textbf{Projection Offset} (ProjOffset): Offset of 2D projection visualization.
     \item \textbf{Text Offset} (TextOffset): Offset of text tags in Z direction.
