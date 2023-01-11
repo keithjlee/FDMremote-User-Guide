@@ -1,0 +1,930 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.5)  11 JAN 2023 14:21
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/kjl/Documents/dev/FDMremote-User-Guide/main.tex
+(/Users/kjl/Documents/dev/FDMremote-User-Guide/main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (./ol-softwaremanual.cls
+Document Class: ol-softwaremanual 2021/05/17 v1.1 Overleaf Software Manual Template
+(/usr/local/texlive/2022/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip47
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count185
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/roboto/roboto.sty
+Package: roboto 2019/12/11 (Bob Tennent) Supports Roboto fonts for all LaTeX engines.
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count186
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/roboto/roboto-mono.sty
+Package: roboto-mono 2019/12/11 (Bob Tennent) Supports RobotoMono fonts for all LaTeX engines.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+Roboto-LF on input line 112.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/roboto/T1Roboto-LF.fd
+File: T1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for T1/Roboto-LF.
+)
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 112.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 112.
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/sfmath/sfmath.sty
+Package: sfmath 2007/08/27 v0.8 sans serif maths
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/Roboto-LF/m/n on input line 329.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/Roboto-LF/bx/n on input line 330.
+\symSFMath=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `normal'
+(Font)                  OT1/Roboto-LF/m/sl --> OT1/Roboto-LF/m/sl on input line 343.
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `bold'
+(Font)                  OT1/Roboto-LF/m/sl --> OT1/Roboto-LF/bx/n on input line 344.
+LaTeX Font Info:    Redeclaring math symbol \imath on input line 398.
+LaTeX Font Info:    Redeclaring math symbol \jmath on input line 399.
+\symSFMathUp=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `normal'
+(Font)                  OT1/Roboto-LF/m/n --> OT1/Roboto-LF/m/n on input line 406.
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `bold'
+(Font)                  OT1/Roboto-LF/m/n --> OT1/Roboto-LF/bx/n on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \ldotp on input line 410.
+\symSFMathGreek=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 419.
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 420.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 422.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 423.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 424.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 425.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 426.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 427.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 428.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 429.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 430.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 431.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 432.
+\symSFMathUpGreek=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 436.
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 437.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `normal'
+(Font)                  OML/cmm/m/it --> OT1/Roboto-LF/m/sl on input line 446.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `bold'
+(Font)                  OML/cmm/b/it --> OT1/Roboto-LF/bx/n on input line 447.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/Roboto-LF/m/n --> OT1/Roboto-LF/m/n on input line 449.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/Roboto-LF/bx/n --> OT1/Roboto-LF/bx/n on input line 450.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/Roboto-LF/bx/n on input line 452.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/Roboto-LF/bx/n on input line 453.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/Roboto-LF/m/sl on input line 455.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/Roboto-LF/m/sl on input line 456.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/Roboto-LF/m/n on input line 458.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/Roboto-LF/bx/n on input line 459.
+LaTeX Font Info:    Overwriting math alphabet `\mathsl' in version `bold'
+(Font)                  OT1/Roboto-LF/m/sl --> OT1/Roboto-LF/m/sl on input line 466.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup8
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 54.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 54.
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen138
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
+\MT@toks=\toks21
+\MT@tempbox=\box50
+\MT@count=\count195
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
+LaTeX Info: Redefining \leftprotrusion on input line 1028.
+LaTeX Info: Redefining \rightprotrusion on input line 1036.
+LaTeX Info: Redefining \textls on input line 1195.
+\MT@outer@kern=\dimen141
+LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
+\MT@listname@count=\count196
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2022/03/14 v3.0d Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 900.
+LaTeX Info: Redefining \lslig on input line 900.
+\MT@outer@space=\skip50
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen142
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count197
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count198
+\leftroot@=\count199
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count266
+\DOTSCASE@=\count267
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count268
+\c@MaxMatrixCols=\count269
+\dotsspace@=\muskip16
+\c@parentequation=\count270
+\dspbrk@lvl=\count271
+\tag@help=\toks23
+\row@=\count272
+\column@=\count273
+\maxfields@=\count274
+\andhelp@=\toks24
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks25
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen151
+\Hy@linkcounter=\count275
+\Hy@pagecounter=\count276
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count277
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count278
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen152
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count279
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count280
+\c@Item=\count281
+\c@Hfootnote=\count282
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count283
+\c@bookmark@seq@number=\count284
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip54
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count285
+\Gm@cntv=\count286
+\c@Gm@tempcnt=\count287
+\Gm@bindingoffset=\dimen155
+\Gm@wd@mp=\dimen156
+\Gm@odd@mp=\dimen157
+\Gm@even@mp=\dimen158
+\Gm@layoutwidth=\dimen159
+\Gm@layoutheight=\dimen160
+\Gm@layouthoffset=\dimen161
+\Gm@layoutvoffset=\dimen162
+\Gm@dimlist=\toks27
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 37.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count288
+\l__pdf_internal_box=\box53
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+\c@mv@tabular=\count289
+\c@mv@boldtabular=\count290
+ (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count291
+\scratchdimen=\dimen163
+\scratchbox=\box54
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen164
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks29
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Info: Redefining \microtypecontext on input line 37.
+Package microtype Info: Applying patch `item' on input line 37.
+Package microtype Info: Applying patch `toc' on input line 37.
+Package microtype Info: Applying patch `eqnum' on input line 37.
+Package microtype Info: Applying patch `footnote' on input line 37.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 37.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Roboto-LF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package hyperref Info: Link coloring ON on input line 37.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count297
+)
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
+ (./main.out) (./main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(99.58464pt, 398.3386pt, 99.58464pt)
+* v-part:(T,H,B)=(119.50148pt, 606.04388pt, 119.50148pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.3386pt
+* \textheight=606.04388pt
+* \oddsidemargin=27.31465pt
+* \evensidemargin=27.31465pt
+* \topmargin=10.23149pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+
+pdfTeX warning: pdflatex (file ./Figures/global.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/global.pdf, id=180, 100.375pt x 100.375pt>
+File: Figures/global.pdf Graphic file (type pdf)
+<use Figures/global.pdf>
+Package pdftex.def Info: Figures/global.pdf  used on input line 40.
+(pdftex.def)             Requested size: 398.3386pt x 398.46027pt.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 24.88pt on input line 40.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
+(Font)              `T1/Roboto-LF/bold/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 24.88pt on input line 40.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 17.28pt on input line 40.
+[1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figures/global.pdf>]
+LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
+(Font)              `T1/Roboto-LF/bold/n' on input line 41.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 17.28pt on input line 41.
+ (./main.toc
+LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
+(Font)              `T1/Roboto-LF/bold/n' on input line 1.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 12.0pt on input line 1.
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 3.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 3.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 3.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 3.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+Roboto-LF on input line 3.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/roboto/OT1Roboto-LF.fd
+File: OT1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for OT1/Roboto-LF.
+)
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/sl' aliased to
+(Font)              `OT1/Roboto-LF/regular/sl' on input line 3.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/sl' in size <12> not available
+(Font)              Font shape `OT1/Roboto-LF/regular/it' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 12.0pt on input line 3.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Roboto-LF' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/sl' aliased to
+(Font)              `OT1/Roboto-LF/regular/sl' on input line 3.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/sl' in size <9> not available
+(Font)              Font shape `OT1/Roboto-LF/regular/it' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 9.0pt on input line 3.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/sl' aliased to
+(Font)              `OT1/Roboto-LF/regular/sl' on input line 3.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/sl' in size <7> not available
+(Font)              Font shape `OT1/Roboto-LF/regular/it' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 7.0pt on input line 3.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
+(Font)              `OT1/Roboto-LF/regular/n' on input line 3.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 3.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
+(Font)              `OT1/Roboto-LF/regular/n' on input line 3.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 3.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
+(Font)              `OT1/Roboto-LF/regular/n' on input line 3.
+LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 3.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 3.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.39 ...h (OBJMinLength)}{20}{subsubsection.4.4.7}
+                                                  % [1])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [2]
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 53.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 14.4pt on input line 53.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
+(Font)              `T1/Roboto-LF/bold/n' on input line 53.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+(Font)              scaled to size 14.4pt on input line 53.
+LaTeX Font Info:    Trying to load font information for T1+RobotoMono-TLF on input line 60.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/roboto/T1RobotoMono-TLF.fd
+File: T1RobotoMono-TLF.fd 2019/12/11 (autoinst) Font definitions for T1/RobotoMono-TLF.
+)
+LaTeX Font Info:    Font shape `T1/RobotoMono-TLF/m/n' aliased to
+(Font)              `T1/RobotoMono-TLF/regular/n' on input line 60.
+LaTeX Font Info:    Font shape `T1/RobotoMono-TLF/regular/n' will be
+(Font)              scaled to size 11.39996pt on input line 60.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `RobotoMono-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (1.08798pt too wide) in paragraph at lines 74--75
+\T1/RobotoMono-TLF/regular/n/12 add https://github.com/keithjlee/FDMremote \T1/Roboto-LF/regular/n/12 (-20) and press-ing en-
+ []
+
+[3] [4] (./workflows.tex) [5]
+<Figures/overview.png, id=278, 314.21739pt x 159.62244pt>
+File: Figures/overview.png Graphic file (type png)
+<use Figures/overview.png>
+Package pdftex.def Info: Figures/overview.png  used on input line 97.
+(pdftex.def)             Requested size: 398.3386pt x 202.37238pt.
+ (./components.tex
+
+pdfTeX warning: pdflatex (file ./Figures/Create.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/Create.pdf, id=281, 24.09pt x 24.09pt>
+File: Figures/Create.pdf Graphic file (type pdf)
+<use Figures/Create.pdf>
+Package pdftex.def Info: Figures/Create.pdf  used on input line 8.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input line 13.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/roboto/TS1Roboto-LF.fd
+File: TS1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for TS1/Roboto-LF.
+)
+LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' aliased to
+(Font)              `TS1/Roboto-LF/regular/n' on input line 13.
+LaTeX Font Info:    Font shape `TS1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 13.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `Roboto-LF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [6 <./Figures/overview.png>]
+
+pdfTeX warning: pdflatex (file ./Figures/Qbylayer.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/Qbylayer.pdf, id=295, 24.09pt x 24.09pt>
+File: Figures/Qbylayer.pdf Graphic file (type pdf)
+<use Figures/Qbylayer.pdf>
+Package pdftex.def Info: Figures/Qbylayer.pdf  used on input line 26.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+
+pdfTeX warning: pdflatex (file ./Figures/Analyze.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/Analyze.pdf, id=296, 24.09pt x 24.09pt>
+File: Figures/Analyze.pdf Graphic file (type pdf)
+<use Figures/Analyze.pdf>
+Package pdftex.def Info: Figures/Analyze.pdf  used on input line 45.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+[7 <./Figures/Create.pdf> <./Figures/Qbylayer.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/Qbylayer.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+pdfTeX warning: pdflatex (file ./Figures/Information.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/Information.pdf, id=317, 24.09pt x 24.09pt>
+File: Figures/Information.pdf Graphic file (type pdf)
+<use Figures/Information.pdf>
+Package pdftex.def Info: Figures/Information.pdf  used on input line 68.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+[8 <./Figures/Analyze.pdf> <./Figures/Information.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/Information.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+pdfTeX warning: pdflatex (file ./Figures/visualize.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/visualize.pdf, id=341, 24.09pt x 24.09pt>
+File: Figures/visualize.pdf Graphic file (type pdf)
+<use Figures/visualize.pdf>
+Package pdftex.def Info: Figures/visualize.pdf  used on input line 96.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+[9 <./Figures/visualize.pdf>]
+
+pdfTeX warning: pdflatex (file ./Figures/curvepairs.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/curvepairs.pdf, id=352, 24.09pt x 24.09pt>
+File: Figures/curvepairs.pdf Graphic file (type pdf)
+<use Figures/curvepairs.pdf>
+Package pdftex.def Info: Figures/curvepairs.pdf  used on input line 125.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+
+pdfTeX warning: pdflatex (file ./Figures/tagger.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/tagger.pdf, id=353, 24.09pt x 24.09pt>
+File: Figures/tagger.pdf Graphic file (type pdf)
+<use Figures/tagger.pdf>
+Package pdftex.def Info: Figures/tagger.pdf  used on input line 143.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+[10 <./Figures/curvepairs.pdf>]
+
+pdfTeX warning: pdflatex (file ./Figures/update.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/update.pdf, id=364, 24.09pt x 24.09pt>
+File: Figures/update.pdf Graphic file (type pdf)
+<use Figures/update.pdf>
+Package pdftex.def Info: Figures/update.pdf  used on input line 160.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
+(Font)              `T1/Roboto-LF/regular/it' on input line 166.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 12.0pt on input line 166.
+[11 <./Figures/tagger.pdf> <./Figures/update.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/update.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+pdfTeX warning: pdflatex (file ./Figures/export.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/export.pdf, id=385, 24.09pt x 24.09pt>
+File: Figures/export.pdf Graphic file (type pdf)
+<use Figures/export.pdf>
+Package pdftex.def Info: Figures/export.pdf  used on input line 176.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+
+pdfTeX warning: pdflatex (file ./Figures/import.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/import.pdf, id=386, 24.09pt x 24.09pt>
+File: Figures/import.pdf Graphic file (type pdf)
+<use Figures/import.pdf>
+Package pdftex.def Info: Figures/import.pdf  used on input line 206.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+[12 <./Figures/export.pdf>]
+
+pdfTeX warning: pdflatex (file ./Figures/baker.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/baker.pdf, id=398, 24.09pt x 24.09pt>
+File: Figures/baker.pdf Graphic file (type pdf)
+<use Figures/baker.pdf>
+Package pdftex.def Info: Figures/baker.pdf  used on input line 232.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+[13 <./Figures/baker.pdf> <./Figures/import.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/import.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Figures/start.png, id=419, 24.09pt x 24.09pt>
+File: Figures/start.png Graphic file (type png)
+<use Figures/start.png>
+Package pdftex.def Info: Figures/start.png  used on input line 264.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+ [14 <./Figures/start.png>]
+
+pdfTeX warning: pdflatex (file ./Figures/send.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/send.pdf, id=425, 24.09pt x 24.09pt>
+File: Figures/send.pdf Graphic file (type pdf)
+<use Figures/send.pdf>
+Package pdftex.def Info: Figures/send.pdf  used on input line 287.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+Overfull \hbox (11.5381pt too wide) in paragraph at lines 295--296
+[]\T1/Roboto-LF/bold/n/12 (-20) Optimization Pa-ram-e-ters \T1/Roboto-LF/regular/n/12 (-20) (Params): Pa-ram-e-ters for anal-y-sis/optimization.
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./Figures/listen.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/listen.pdf, id=426, 24.09pt x 24.09pt>
+File: Figures/listen.pdf Graphic file (type pdf)
+<use Figures/listen.pdf>
+Package pdftex.def Info: Figures/listen.pdf  used on input line 312.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <./Figures/send.pdf>]
+
+pdfTeX warning: pdflatex (file ./Figures/parameters.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/parameters.pdf, id=438, 24.09pt x 24.09pt>
+File: Figures/parameters.pdf Graphic file (type pdf)
+<use Figures/parameters.pdf>
+Package pdftex.def Info: Figures/parameters.pdf  used on input line 341.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+[16 <./Figures/listen.pdf> <./Figures/parameters.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/parameters.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+pdfTeX warning: pdflatex (file ./Figures/Target.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/Target.pdf, id=455, 24.09pt x 24.09pt>
+File: Figures/Target.pdf Graphic file (type pdf)
+<use Figures/Target.pdf>
+Package pdftex.def Info: Figures/Target.pdf  used on input line 375.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17]
+
+pdfTeX warning: pdflatex (file ./Figures/performance.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/performance.pdf, id=461, 24.09pt x 24.09pt>
+File: Figures/performance.pdf Graphic file (type pdf)
+<use Figures/performance.pdf>
+Package pdftex.def Info: Figures/performance.pdf  used on input line 399.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+
+pdfTeX warning: pdflatex (file ./Figures/Force var.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/Force var.pdf, id=462, 24.09pt x 24.09pt>
+File: Figures/Force var.pdf Graphic file (type pdf)
+<use Figures/Force var.pdf>
+Package pdftex.def Info: Figures/Force var.pdf  used on input line 423.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+[18 <./Figures/Target.pdf> <./Figures/performance.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/performance.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Figures/Force var.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/Force var.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+pdfTeX warning: pdflatex (file ./Figures/length var.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/length var.pdf, id=490, 24.09pt x 24.09pt>
+File: Figures/length var.pdf Graphic file (type pdf)
+<use Figures/length var.pdf>
+Package pdftex.def Info: Figures/length var.pdf  used on input line 447.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+
+pdfTeX warning: pdflatex (file ./Figures/minforce.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/minforce.pdf, id=491, 24.09pt x 24.09pt>
+File: Figures/minforce.pdf Graphic file (type pdf)
+<use Figures/minforce.pdf>
+Package pdftex.def Info: Figures/minforce.pdf  used on input line 472.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19 <./Figures/length var.pdf>]
+
+pdfTeX warning: pdflatex (file ./Figures/maxforce.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/maxforce.pdf, id=503, 24.09pt x 24.09pt>
+File: Figures/maxforce.pdf Graphic file (type pdf)
+<use Figures/maxforce.pdf>
+Package pdftex.def Info: Figures/maxforce.pdf  used on input line 498.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+
+pdfTeX warning: pdflatex (file ./Figures/minlength.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/minlength.pdf, id=505, 24.09pt x 24.09pt>
+File: Figures/minlength.pdf Graphic file (type pdf)
+<use Figures/minlength.pdf>
+Package pdftex.def Info: Figures/minlength.pdf  used on input line 524.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20 <./Figures/minforce.pdf> <./Figures/maxforce.pdf>]
+
+pdfTeX warning: pdflatex (file ./Figures/maxlength.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/maxlength.pdf, id=525, 24.09pt x 24.09pt>
+File: Figures/maxlength.pdf Graphic file (type pdf)
+<use Figures/maxlength.pdf>
+Package pdftex.def Info: Figures/maxlength.pdf  used on input line 550.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+
+pdfTeX warning: pdflatex (file ./Figures/SurfQ.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/SurfQ.pdf, id=527, 24.09pt x 24.09pt>
+File: Figures/SurfQ.pdf Graphic file (type pdf)
+<use Figures/SurfQ.pdf>
+Package pdftex.def Info: Figures/SurfQ.pdf  used on input line 572.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+[21 <./Figures/minlength.pdf> <./Figures/maxlength.pdf>] [22 <./Figures/SurfQ.pdf>]
+
+pdfTeX warning: pdflatex (file ./Figures/SurfP.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/SurfP.pdf, id=556, 24.09pt x 24.09pt>
+File: Figures/SurfP.pdf Graphic file (type pdf)
+<use Figures/SurfP.pdf>
+Package pdftex.def Info: Figures/SurfP.pdf  used on input line 602.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+
+pdfTeX warning: pdflatex (file ./Figures/Maker.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/Maker.pdf, id=557, 24.09pt x 24.09pt>
+File: Figures/Maker.pdf Graphic file (type pdf)
+<use Figures/Maker.pdf>
+Package pdftex.def Info: Figures/Maker.pdf  used on input line 632.
+(pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23 <./Figures/SurfP.pdf>]) [24 <./Figures/Maker.pdf>] (./main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C380076AD578A948398EE9DF1D0EF34D;7619.
+ ) 
+Here is how much of TeX's memory you used:
+ 14321 strings out of 478268
+ 241823 string characters out of 5846348
+ 543991 words of memory out of 5000000
+ 31898 multiletter control sequences out of 15000+600000
+ 567896 words of font info for 249 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 70i,9n,76p,1047b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_e24joy.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/RobotoMono-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on main.pdf (25 pages, 420437 bytes).
+PDF statistics:
+ 652 PDF objects out of 1000 (max. 8388607)
+ 514 compressed objects within 6 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 63511 words of extra memory for PDF output out of 74296 (max. 10000000)
+
