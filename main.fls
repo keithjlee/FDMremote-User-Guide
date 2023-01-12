@@ -848,6 +848,14 @@ INPUT ./workflows.tex
 INPUT workflows.tex
 INPUT ./workflows.tex
 INPUT workflows.tex
+INPUT ./Figures/basic.pdf
+INPUT Figures/basic.pdf
+INPUT ./Figures/basic.pdf
+INPUT ./Figures/basic.pdf
+INPUT ./Figures/remote.pdf
+INPUT Figures/remote.pdf
+INPUT ./Figures/remote.pdf
+INPUT ./Figures/remote.pdf
 INPUT ./Figures/overview.png
 INPUT Figures/overview.png
 INPUT ./Figures/overview.png

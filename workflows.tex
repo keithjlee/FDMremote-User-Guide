@@ -7,21 +7,26 @@
     \item Many utility components (Bake, Maker, CtrlSurfQ, CtrlSurfP) are based on bounding boxes aligned to the global axes. They will work best when your drawn network is somewhat aligned with these axes. I.e., try and make sure the primary span of your input network is aligned with either the global X or Y axis. If one span is significantly longer than the other, align this span with the global X axis.
 \end{enumerate}
 
-The examples below can be downloaded \href{https://www.food4rhino.com/en/app/fdmremote?lang=en}{here}. A general architecture diagram is provided in each section: \textbf{black} arrows and borders define mandatory component interactions, {\color{gray} \textbf{gray}} arrows define optional (but useful) interactions.
+The examples below can be downloaded \href{https://www.food4rhino.com/en/app/fdmremote?lang=en}{here}. A general architecture diagram is provided in each section: \textbf{black} defines mandatory component interactions, {\color{gray} \textbf{gray}} defines optional interfaces (e.g., a default value is provided).
 
-\subsection{A simple network}
+\subsection{Basic workflow}
+The most basic workflow for the design and analysis requires two components: \nameref{Create} and \nameref{AnalyzeSimple}.
 
+\begin{figure*}[h]
+    \centering
+    \includegraphics*[width=\textwidth]{Figures/basic}
+\end{figure*}
 
-\subsection{Control of Q and P}
+\textbf{Create} takes a collection of points to define anchors (fixed points) of a network and a collection of curves (edges). The position and indices of free nodes are automatically calculated based on the start and end points of the input curves. \texttt{Tolerance} defines the search radius at the end points of each curve to determine whether an end point is an anchor, and which end points are shared among edges. You can adjust this if your input geometry is less precise.
 
+A default force density (q) value of 1 is prescribed to all edges. You can either provide a single numeric override value, or provide a list of values in order of the input edges and of the same length. A more natural control method can be performed using \nameref{CtrlSurfQ}.
 
-\subsection{Remote Analysis}
+\textbf{Analyze} takes a network object and returns a new network with equilibrium node positions. It takes an optional external load value applied to the free nodes. This can be defined by a single vector for a consistent load, or a list of vectors in order of each free node. A more natural control method can be performed using \nameref{CtrlSurfP}.
 
+\subsection*{Remote workflow}
 
-\subsection{Direct Manipulation}
+\begin{figure*}[h]
+    \centering
+    \includegraphics*[width = \textwidth]{Figures/remote}
+\end{figure*}
 
-
-\subsection{Optimization}
-
-
-\subsection{Advanced}
