@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.5)  12 JAN 2023 13:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.5)  12 JAN 2023 16:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -499,7 +499,7 @@ LaTeX Info: Redefining \nameref on input line 37.
 
 
 pdfTeX warning: pdflatex (file ./Figures/global.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/global.pdf, id=160, 100.375pt x 100.375pt>
+<Figures/global.pdf, id=172, 100.375pt x 100.375pt>
 File: Figures/global.pdf Graphic file (type pdf)
 <use Figures/global.pdf>
 Package pdftex.def Info: Figures/global.pdf  used on input line 40.
@@ -600,7 +600,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 ...ke Helper (Make)}{25}{subsubsection.4.5.3}
+l.39 ...ine {4.5}Experimental}{26}{subsection.4.5}
                                                   % [1])
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -631,27 +631,45 @@ Overfull \hbox (1.08798pt too wide) in paragraph at lines 74--75
 \T1/RobotoMono-TLF/regular/n/12 add https://github.com/keithjlee/FDMremote \T1/Roboto-LF/regular/n/12 (-20) and press-ing en-
  []
 
-[3] [4] (./workflows.tex
+[3] [4] (./workflows.tex [5]
 
 pdfTeX warning: pdflatex (file ./Figures/basic.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/basic.pdf, id=246, 314.17375pt x 140.525pt>
+<Figures/basic.pdf, id=270, 314.17375pt x 140.525pt>
 File: Figures/basic.pdf Graphic file (type pdf)
 <use Figures/basic.pdf>
-Package pdftex.def Info: Figures/basic.pdf  used on input line 17.
+Package pdftex.def Info: Figures/basic.pdf  used on input line 18.
 (pdftex.def)             Requested size: 398.3386pt x 178.17957pt.
+[6 <./Figures/basic.pdf>]
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
+(Font)              `T1/Roboto-LF/regular/it' on input line 34.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 12.0pt on input line 34.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5]
 
 pdfTeX warning: pdflatex (file ./Figures/remote.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/remote.pdf, id=259, 314.17375pt x 140.525pt>
+<Figures/remote.pdf, id=299, 314.17375pt x 140.525pt>
 File: Figures/remote.pdf Graphic file (type pdf)
 <use Figures/remote.pdf>
-Package pdftex.def Info: Figures/remote.pdf  used on input line 30.
+Package pdftex.def Info: Figures/remote.pdf  used on input line 38.
 (pdftex.def)             Requested size: 398.3386pt x 178.17957pt.
-) [6 <./Figures/basic.pdf> <./Figures/remote.pdf>]
-<Figures/overview.png, id=312, 314.21739pt x 159.62244pt>
+[7 <./Figures/remote.pdf>]
+
+pdfTeX warning: pdflatex (file ./Figures/direct.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/direct.pdf, id=338, 314.17375pt x 140.525pt>
+File: Figures/direct.pdf Graphic file (type pdf)
+<use Figures/direct.pdf>
+Package pdftex.def Info: Figures/direct.pdf  used on input line 59.
+(pdftex.def)             Requested size: 398.3386pt x 178.17957pt.
+[8 <./Figures/direct.pdf>]
+
+pdfTeX warning: pdflatex (file ./Figures/optim.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Figures/optim.pdf, id=359, 314.17375pt x 140.525pt>
+File: Figures/optim.pdf Graphic file (type pdf)
+<use Figures/optim.pdf>
+Package pdftex.def Info: Figures/optim.pdf  used on input line 74.
+(pdftex.def)             Requested size: 398.3386pt x 178.17957pt.
+) [9 <./Figures/optim.pdf>]
+<Figures/overview.png, id=384, 314.21739pt x 159.62244pt>
 File: Figures/overview.png Graphic file (type png)
 <use Figures/overview.png>
 Package pdftex.def Info: Figures/overview.png  used on input line 97.
@@ -659,7 +677,7 @@ Package pdftex.def Info: Figures/overview.png  used on input line 97.
  (./components.tex
 
 pdfTeX warning: pdflatex (file ./Figures/Create.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Create.pdf, id=315, 24.09pt x 24.09pt>
+<Figures/Create.pdf, id=387, 24.09pt x 24.09pt>
 File: Figures/Create.pdf Graphic file (type pdf)
 <use Figures/Create.pdf>
 Package pdftex.def Info: Figures/Create.pdf  used on input line 8.
@@ -679,10 +697,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Roboto-LF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [7 <./Figures/overview.png>]
+ [10 <./Figures/overview.png>]
 
 pdfTeX warning: pdflatex (file ./Figures/Qbylayer.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Qbylayer.pdf, id=328, 24.09pt x 24.09pt>
+<Figures/Qbylayer.pdf, id=400, 24.09pt x 24.09pt>
 File: Figures/Qbylayer.pdf Graphic file (type pdf)
 <use Figures/Qbylayer.pdf>
 Package pdftex.def Info: Figures/Qbylayer.pdf  used on input line 26.
@@ -690,18 +708,18 @@ Package pdftex.def Info: Figures/Qbylayer.pdf  used on input line 26.
 
 
 pdfTeX warning: pdflatex (file ./Figures/Analyze.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Analyze.pdf, id=329, 24.09pt x 24.09pt>
+<Figures/Analyze.pdf, id=401, 24.09pt x 24.09pt>
 File: Figures/Analyze.pdf Graphic file (type pdf)
 <use Figures/Analyze.pdf>
 Package pdftex.def Info: Figures/Analyze.pdf  used on input line 45.
 (pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
-[8 <./Figures/Create.pdf> <./Figures/Qbylayer.pdf
+[11 <./Figures/Create.pdf> <./Figures/Qbylayer.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/Qbylayer.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
 pdfTeX warning: pdflatex (file ./Figures/Information.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Information.pdf, id=349, 24.09pt x 24.09pt>
+<Figures/Information.pdf, id=421, 24.09pt x 24.09pt>
 File: Figures/Information.pdf Graphic file (type pdf)
 <use Figures/Information.pdf>
 Package pdftex.def Info: Figures/Information.pdf  used on input line 68.
@@ -711,21 +729,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-[9 <./Figures/Analyze.pdf> <./Figures/Information.pdf
+[12 <./Figures/Analyze.pdf> <./Figures/Information.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/Information.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
 pdfTeX warning: pdflatex (file ./Figures/visualize.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/visualize.pdf, id=373, 24.09pt x 24.09pt>
+<Figures/visualize.pdf, id=446, 24.09pt x 24.09pt>
 File: Figures/visualize.pdf Graphic file (type pdf)
 <use Figures/visualize.pdf>
 Package pdftex.def Info: Figures/visualize.pdf  used on input line 96.
 (pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
-[10 <./Figures/visualize.pdf>]
+[13 <./Figures/visualize.pdf>]
 
 pdfTeX warning: pdflatex (file ./Figures/curvepairs.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/curvepairs.pdf, id=384, 24.09pt x 24.09pt>
+<Figures/curvepairs.pdf, id=458, 24.09pt x 24.09pt>
 File: Figures/curvepairs.pdf Graphic file (type pdf)
 <use Figures/curvepairs.pdf>
 Package pdftex.def Info: Figures/curvepairs.pdf  used on input line 125.
@@ -733,30 +751,26 @@ Package pdftex.def Info: Figures/curvepairs.pdf  used on input line 125.
 
 
 pdfTeX warning: pdflatex (file ./Figures/tagger.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/tagger.pdf, id=385, 24.09pt x 24.09pt>
+<Figures/tagger.pdf, id=459, 24.09pt x 24.09pt>
 File: Figures/tagger.pdf Graphic file (type pdf)
 <use Figures/tagger.pdf>
 Package pdftex.def Info: Figures/tagger.pdf  used on input line 143.
 (pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
-[11 <./Figures/curvepairs.pdf>]
+[14 <./Figures/curvepairs.pdf>]
 
 pdfTeX warning: pdflatex (file ./Figures/update.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/update.pdf, id=396, 24.09pt x 24.09pt>
+<Figures/update.pdf, id=470, 24.09pt x 24.09pt>
 File: Figures/update.pdf Graphic file (type pdf)
 <use Figures/update.pdf>
 Package pdftex.def Info: Figures/update.pdf  used on input line 160.
 (pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
-(Font)              `T1/Roboto-LF/regular/it' on input line 166.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 12.0pt on input line 166.
-[12 <./Figures/tagger.pdf> <./Figures/update.pdf
+[15 <./Figures/tagger.pdf> <./Figures/update.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/update.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
 pdfTeX warning: pdflatex (file ./Figures/export.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/export.pdf, id=418, 24.09pt x 24.09pt>
+<Figures/export.pdf, id=490, 24.09pt x 24.09pt>
 File: Figures/export.pdf Graphic file (type pdf)
 <use Figures/export.pdf>
 Package pdftex.def Info: Figures/export.pdf  used on input line 176.
@@ -764,32 +778,32 @@ Package pdftex.def Info: Figures/export.pdf  used on input line 176.
 
 
 pdfTeX warning: pdflatex (file ./Figures/import.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/import.pdf, id=419, 24.09pt x 24.09pt>
+<Figures/import.pdf, id=491, 24.09pt x 24.09pt>
 File: Figures/import.pdf Graphic file (type pdf)
 <use Figures/import.pdf>
 Package pdftex.def Info: Figures/import.pdf  used on input line 206.
 (pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
-[13 <./Figures/export.pdf>]
+[16 <./Figures/export.pdf>]
 
 pdfTeX warning: pdflatex (file ./Figures/baker.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/baker.pdf, id=430, 24.09pt x 24.09pt>
+<Figures/baker.pdf, id=502, 24.09pt x 24.09pt>
 File: Figures/baker.pdf Graphic file (type pdf)
 <use Figures/baker.pdf>
 Package pdftex.def Info: Figures/baker.pdf  used on input line 232.
 (pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
-[14 <./Figures/baker.pdf> <./Figures/import.pdf
+[17 <./Figures/baker.pdf> <./Figures/import.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/import.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<Figures/start.png, id=452, 24.09pt x 24.09pt>
+<Figures/start.png, id=523, 24.09pt x 24.09pt>
 File: Figures/start.png Graphic file (type png)
 <use Figures/start.png>
 Package pdftex.def Info: Figures/start.png  used on input line 264.
 (pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
- [15 <./Figures/start.png>]
+ [18 <./Figures/start.png>]
 
 pdfTeX warning: pdflatex (file ./Figures/send.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/send.pdf, id=458, 24.09pt x 24.09pt>
+<Figures/send.pdf, id=530, 24.09pt x 24.09pt>
 File: Figures/send.pdf Graphic file (type pdf)
 <use Figures/send.pdf>
 Package pdftex.def Info: Figures/send.pdf  used on input line 287.
@@ -802,7 +816,7 @@ Overfull \hbox (11.5381pt too wide) in paragraph at lines 295--296
 
 
 pdfTeX warning: pdflatex (file ./Figures/listen.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/listen.pdf, id=459, 24.09pt x 24.09pt>
+<Figures/listen.pdf, id=531, 24.09pt x 24.09pt>
 File: Figures/listen.pdf Graphic file (type pdf)
 <use Figures/listen.pdf>
 Package pdftex.def Info: Figures/listen.pdf  used on input line 312.
@@ -810,21 +824,21 @@ Package pdftex.def Info: Figures/listen.pdf  used on input line 312.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16 <./Figures/send.pdf>]
+[19 <./Figures/send.pdf>]
 
 pdfTeX warning: pdflatex (file ./Figures/parameters.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/parameters.pdf, id=470, 24.09pt x 24.09pt>
+<Figures/parameters.pdf, id=542, 24.09pt x 24.09pt>
 File: Figures/parameters.pdf Graphic file (type pdf)
 <use Figures/parameters.pdf>
 Package pdftex.def Info: Figures/parameters.pdf  used on input line 341.
 (pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
-[17 <./Figures/listen.pdf> <./Figures/parameters.pdf
+[20 <./Figures/listen.pdf> <./Figures/parameters.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/parameters.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
 pdfTeX warning: pdflatex (file ./Figures/Target.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Target.pdf, id=487, 24.09pt x 24.09pt>
+<Figures/Target.pdf, id=559, 24.09pt x 24.09pt>
 File: Figures/Target.pdf Graphic file (type pdf)
 <use Figures/Target.pdf>
 Package pdftex.def Info: Figures/Target.pdf  used on input line 375.
@@ -832,10 +846,10 @@ Package pdftex.def Info: Figures/Target.pdf  used on input line 375.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18]
+[21]
 
 pdfTeX warning: pdflatex (file ./Figures/performance.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/performance.pdf, id=494, 24.09pt x 24.09pt>
+<Figures/performance.pdf, id=565, 24.09pt x 24.09pt>
 File: Figures/performance.pdf Graphic file (type pdf)
 <use Figures/performance.pdf>
 Package pdftex.def Info: Figures/performance.pdf  used on input line 399.
@@ -843,12 +857,12 @@ Package pdftex.def Info: Figures/performance.pdf  used on input line 399.
 
 
 pdfTeX warning: pdflatex (file ./Figures/Force var.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Force var.pdf, id=495, 24.09pt x 24.09pt>
+<Figures/Force var.pdf, id=566, 24.09pt x 24.09pt>
 File: Figures/Force var.pdf Graphic file (type pdf)
 <use Figures/Force var.pdf>
 Package pdftex.def Info: Figures/Force var.pdf  used on input line 423.
 (pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
-[19 <./Figures/Target.pdf> <./Figures/performance.pdf
+[22 <./Figures/Target.pdf> <./Figures/performance.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/performance.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Figures/Force var.pdf
@@ -857,7 +871,7 @@ pdfTeX warning: pdflatex (file ./Figures/Force var.pdf): PDF inclusion: multiple
 >]
 
 pdfTeX warning: pdflatex (file ./Figures/length var.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/length var.pdf, id=522, 24.09pt x 24.09pt>
+<Figures/length var.pdf, id=594, 24.09pt x 24.09pt>
 File: Figures/length var.pdf Graphic file (type pdf)
 <use Figures/length var.pdf>
 Package pdftex.def Info: Figures/length var.pdf  used on input line 447.
@@ -865,7 +879,7 @@ Package pdftex.def Info: Figures/length var.pdf  used on input line 447.
 
 
 pdfTeX warning: pdflatex (file ./Figures/minforce.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/minforce.pdf, id=523, 24.09pt x 24.09pt>
+<Figures/minforce.pdf, id=595, 24.09pt x 24.09pt>
 File: Figures/minforce.pdf Graphic file (type pdf)
 <use Figures/minforce.pdf>
 Package pdftex.def Info: Figures/minforce.pdf  used on input line 472.
@@ -873,10 +887,10 @@ Package pdftex.def Info: Figures/minforce.pdf  used on input line 472.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20 <./Figures/length var.pdf>]
+[23 <./Figures/length var.pdf>]
 
 pdfTeX warning: pdflatex (file ./Figures/maxforce.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/maxforce.pdf, id=535, 24.09pt x 24.09pt>
+<Figures/maxforce.pdf, id=607, 24.09pt x 24.09pt>
 File: Figures/maxforce.pdf Graphic file (type pdf)
 <use Figures/maxforce.pdf>
 Package pdftex.def Info: Figures/maxforce.pdf  used on input line 498.
@@ -884,7 +898,7 @@ Package pdftex.def Info: Figures/maxforce.pdf  used on input line 498.
 
 
 pdfTeX warning: pdflatex (file ./Figures/minlength.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/minlength.pdf, id=537, 24.09pt x 24.09pt>
+<Figures/minlength.pdf, id=609, 24.09pt x 24.09pt>
 File: Figures/minlength.pdf Graphic file (type pdf)
 <use Figures/minlength.pdf>
 Package pdftex.def Info: Figures/minlength.pdf  used on input line 524.
@@ -892,10 +906,10 @@ Package pdftex.def Info: Figures/minlength.pdf  used on input line 524.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21 <./Figures/minforce.pdf> <./Figures/maxforce.pdf>]
+[24 <./Figures/minforce.pdf> <./Figures/maxforce.pdf>]
 
 pdfTeX warning: pdflatex (file ./Figures/maxlength.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/maxlength.pdf, id=557, 24.09pt x 24.09pt>
+<Figures/maxlength.pdf, id=630, 24.09pt x 24.09pt>
 File: Figures/maxlength.pdf Graphic file (type pdf)
 <use Figures/maxlength.pdf>
 Package pdftex.def Info: Figures/maxlength.pdf  used on input line 550.
@@ -903,15 +917,15 @@ Package pdftex.def Info: Figures/maxlength.pdf  used on input line 550.
 
 
 pdfTeX warning: pdflatex (file ./Figures/SurfQ.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/SurfQ.pdf, id=559, 24.09pt x 24.09pt>
+<Figures/SurfQ.pdf, id=632, 24.09pt x 24.09pt>
 File: Figures/SurfQ.pdf Graphic file (type pdf)
 <use Figures/SurfQ.pdf>
 Package pdftex.def Info: Figures/SurfQ.pdf  used on input line 572.
 (pdftex.def)             Requested size: 85.35826pt x 85.37225pt.
-[22 <./Figures/minlength.pdf> <./Figures/maxlength.pdf>] [23 <./Figures/SurfQ.pdf>]
+[25 <./Figures/minlength.pdf> <./Figures/maxlength.pdf>] [26 <./Figures/SurfQ.pdf>]
 
 pdfTeX warning: pdflatex (file ./Figures/SurfP.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/SurfP.pdf, id=589, 24.09pt x 24.09pt>
+<Figures/SurfP.pdf, id=661, 24.09pt x 24.09pt>
 File: Figures/SurfP.pdf Graphic file (type pdf)
 <use Figures/SurfP.pdf>
 Package pdftex.def Info: Figures/SurfP.pdf  used on input line 602.
@@ -919,7 +933,7 @@ Package pdftex.def Info: Figures/SurfP.pdf  used on input line 602.
 
 
 pdfTeX warning: pdflatex (file ./Figures/Maker.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Maker.pdf, id=590, 24.09pt x 24.09pt>
+<Figures/Maker.pdf, id=662, 24.09pt x 24.09pt>
 File: Figures/Maker.pdf Graphic file (type pdf)
 <use Figures/Maker.pdf>
 Package pdftex.def Info: Figures/Maker.pdf  used on input line 632.
@@ -927,23 +941,23 @@ Package pdftex.def Info: Figures/Maker.pdf  used on input line 632.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24 <./Figures/SurfP.pdf>]) [25 <./Figures/Maker.pdf>] (./main.aux)
+[27 <./Figures/SurfP.pdf>]) [28 <./Figures/Maker.pdf>] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 67FD3BFC99056B643AFB60F7F85FB304;6938.
+(rerunfilecheck)             Checksum: A6789609FE321C0EA2CDF4730666BD07;7406.
  ) 
 Here is how much of TeX's memory you used:
- 14334 strings out of 478268
- 242179 string characters out of 5846348
- 543992 words of memory out of 5000000
- 31909 multiletter control sequences out of 15000+600000
- 568234 words of font info for 251 fonts, out of 8000000 for 9000
+ 14379 strings out of 478268
+ 243032 string characters out of 5846348
+ 544167 words of memory out of 5000000
+ 31931 multiletter control sequences out of 15000+600000
+ 569701 words of font info for 259 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,9n,76p,1047b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_e24joy.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/RobotoMono-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (26 pages, 519667 bytes).
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/roboto/rbto_e24joy.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/google/roboto/RobotoMono-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on main.pdf (29 pages, 597940 bytes).
 PDF statistics:
- 684 PDF objects out of 1000 (max. 8388607)
- 524 compressed objects within 6 object streams
- 85 named destinations out of 1000 (max. 500000)
- 63493 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 756 PDF objects out of 1000 (max. 8388607)
+ 581 compressed objects within 6 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 63539 words of extra memory for PDF output out of 74296 (max. 10000000)
 

@@ -4,36 +4,39 @@
 \contentsline {subsection}{\numberline {2.2}Installing FDMremote.jl}{3}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Design Workflow}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}General notes}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Basic workflow}{5}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Component Overview}{7}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Design}{7}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}CreateNetwork (Create)}{7}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}QByLayer (LayerQ)}{8}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}AnalyzeSimpleNetwork (AnalyzeSimple)}{9}{subsubsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.2}Utility}{9}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}NetworkInformation (Info)}{9}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Visualize Network (Visualize)}{10}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Curve to Curve (CurvePairs)}{11}{subsubsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.4}Element Tagger (Tagger)}{12}{subsubsection.4.2.4}%
-\contentsline {subsubsection}{\numberline {4.2.5}Update Geometry (Update)}{12}{subsubsection.4.2.5}%
-\contentsline {subsubsection}{\numberline {4.2.6}Freeze Network (Freeze)}{13}{subsubsection.4.2.6}%
-\contentsline {subsubsection}{\numberline {4.2.7}Load Network (Load)}{14}{subsubsection.4.2.7}%
-\contentsline {subsubsection}{\numberline {4.2.8}Baker (Baker)}{14}{subsubsection.4.2.8}%
-\contentsline {subsection}{\numberline {4.3}Optimization}{15}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Remote Start (FDMstart)}{15}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Remote Send (FDMsend)}{16}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}Remote Listen (FDMlisten)}{16}{subsubsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.4}Optimization Parameters (Params)}{17}{subsubsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.4}Objective Functions}{18}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}Target (OBJTarget)}{18}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}StructuralPerformance (OBJFL)}{19}{subsubsection.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.4.3}ForceVariation (OBJForce)}{19}{subsubsection.4.4.3}%
-\contentsline {subsubsection}{\numberline {4.4.4}LengthVariation (OBJLength)}{20}{subsubsection.4.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.5}MinimumForce (OBJMinForce)}{20}{subsubsection.4.4.5}%
-\contentsline {subsubsection}{\numberline {4.4.6}MaximumForce (OBJMaxForce)}{21}{subsubsection.4.4.6}%
-\contentsline {subsubsection}{\numberline {4.4.7}MinimumLength (OBJMinLength)}{21}{subsubsection.4.4.7}%
-\contentsline {subsubsection}{\numberline {4.4.8}MaximumLength (OBJMaxLength)}{22}{subsubsection.4.4.8}%
-\contentsline {subsection}{\numberline {4.5}Experimental}{23}{subsection.4.5}%
-\contentsline {subsubsection}{\numberline {4.5.1}Edge Control Surface (CtrlSurfQ)}{23}{subsubsection.4.5.1}%
-\contentsline {subsubsection}{\numberline {4.5.2}Point Control Surface (CtrlSurfP)}{24}{subsubsection.4.5.2}%
-\contentsline {subsubsection}{\numberline {4.5.3}Make Helper (Make)}{25}{subsubsection.4.5.3}%
+\contentsline {subsection}{\numberline {3.2}Basic workflow}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Remote workflow}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Direct Manipulation}{8}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Optimization parameters}{9}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Component Overview}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Design}{10}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}CreateNetwork (Create)}{10}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}QByLayer (LayerQ)}{11}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}AnalyzeSimpleNetwork (AnalyzeSimple)}{12}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.2}Utility}{12}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}NetworkInformation (Info)}{12}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Visualize Network (Visualize)}{13}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Curve to Curve (CurvePairs)}{14}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Element Tagger (Tagger)}{15}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}Update Geometry (Update)}{15}{subsubsection.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.6}Freeze Network (Freeze)}{16}{subsubsection.4.2.6}%
+\contentsline {subsubsection}{\numberline {4.2.7}Load Network (Load)}{17}{subsubsection.4.2.7}%
+\contentsline {subsubsection}{\numberline {4.2.8}Baker (Baker)}{17}{subsubsection.4.2.8}%
+\contentsline {subsection}{\numberline {4.3}Optimization}{18}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Remote Start (FDMstart)}{18}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Remote Send (FDMsend)}{19}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Remote Listen (FDMlisten)}{19}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}Optimization Parameters (Params)}{20}{subsubsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.4}Objective Functions}{21}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Target (OBJTarget)}{21}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}StructuralPerformance (OBJFL)}{22}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}ForceVariation (OBJForce)}{22}{subsubsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.4}LengthVariation (OBJLength)}{23}{subsubsection.4.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.5}MinimumForce (OBJMinForce)}{23}{subsubsection.4.4.5}%
+\contentsline {subsubsection}{\numberline {4.4.6}MaximumForce (OBJMaxForce)}{24}{subsubsection.4.4.6}%
+\contentsline {subsubsection}{\numberline {4.4.7}MinimumLength (OBJMinLength)}{24}{subsubsection.4.4.7}%
+\contentsline {subsubsection}{\numberline {4.4.8}MaximumLength (OBJMaxLength)}{25}{subsubsection.4.4.8}%
+\contentsline {subsection}{\numberline {4.5}Experimental}{26}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Edge Control Surface (CtrlSurfQ)}{26}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Point Control Surface (CtrlSurfP)}{27}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.3}Make Helper (Make)}{28}{subsubsection.4.5.3}%

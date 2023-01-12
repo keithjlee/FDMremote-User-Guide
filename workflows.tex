@@ -9,6 +9,7 @@
 
 The examples below can be downloaded \href{https://www.food4rhino.com/en/app/fdmremote?lang=en}{here}. A general architecture diagram is provided in each section: \textbf{black} defines mandatory component interactions, {\color{gray} \textbf{gray}} defines optional interfaces (e.g., a default value is provided).
 
+\newpage
 \subsection{Basic workflow}
 The most basic workflow for the design and analysis requires two components: \nameref{Create} and \nameref{AnalyzeSimple}.
 
@@ -19,14 +20,67 @@ The most basic workflow for the design and analysis requires two components: \na
 
 \textbf{Create} takes a collection of points to define anchors (fixed points) of a network and a collection of curves (edges). The position and indices of free nodes are automatically calculated based on the start and end points of the input curves. \texttt{Tolerance} defines the search radius at the end points of each curve to determine whether an end point is an anchor, and which end points are shared among edges. You can adjust this if your input geometry is less precise.
 
-A default force density (q) value of 1 is prescribed to all edges. You can either provide a single numeric override value, or provide a list of values in order of the input edges and of the same length. A more natural control method can be performed using \nameref{CtrlSurfQ}.
+A default force density (q) value of 1 is prescribed to all edges. You can either provide a single numeric override value, or provide a list of values in order of the input edges and of the same length. A more natural control method can be performed using \nameref{CtrlSurfQ} and \nameref{LayerQ}.
+
 
 \textbf{Analyze} takes a network object and returns a new network with equilibrium node positions. It takes an optional external load value applied to the free nodes. This can be defined by a single vector for a consistent load, or a list of vectors in order of each free node. A more natural control method can be performed using \nameref{CtrlSurfP}.
 
-\subsection*{Remote workflow}
+\vspace{2em}
+
+See \texttt{0\_simplenetwork.gh} and \texttt{1\_controlsurfaces.gh} for examples of basic network analysis.
+
+\newpage
+\subsection{Remote workflow}
+In example files 0 and 1, there are sliders defining the density of the initial grid network. Try adjusting the lower bounds to a larger number (say, 15), and observe the decrease in performance and response for these larger networks. Adjusting anchor position sliders is no longer fluid. This is where the \textit{remote} part of FDMremote comes in, for rapid analysis and real-time response for very dense networks. The following diagram shows the general workflow for remote analysis.
 
 \begin{figure*}[h]
     \centering
     \includegraphics*[width = \textwidth]{Figures/remote}
 \end{figure*}
 
+\textbf{AnalyzeSimple} is replaced by a series of three components: \nameref{FDMstart}, \nameref{FDMsend}, and \nameref{FDMlisten}. The output \textbf{WSC} in \textbf{FDMstart} is the main object that communicates with the Julia server. Ideally, initialize the Julia server first by opening a Julia instance and running the following commands:
+\begin{enumerate}
+    \item \texttt{using FDMremote}
+    \item \texttt{FDMsolve!()}
+\end{enumerate} 
+
+Then, replace \textbf{AnalyzeSimple} with the three \textbf{FDM} components, and use normally. The first solve will take a while as the Julia server compiles; you should notice a significant performance improvement for subsequent analyses. Try making the density of the grid in Example 1 significantly larger. 
+
+\vspace{2em}
+
+See \texttt{2\_remoteanalysis.gh} for an example.
+
+\newpage
+\subsection{Direct Manipulation}
+Sometimes we want to directly interact with the drawn network: freely move nodes around, organize edges with layers, and export rendered geometry. You can do this by creating a translation layer between Rhino and Grasshopper using the built in \textbf{GeometryPipeline} component. Create two separate pipelines: one for edges and one for anchors.
+
+\begin{figure*}[h]
+    \centering
+    \includegraphics*[width=\textwidth]{Figures/direct}
+\end{figure*}
+
+The use of pipelines now allows you to modify the input geometry directly and observe the resulting changes in the FDM analysis. It also enables two useful components: \nameref{LayerQ} and \nameref{Update}. These components make use of the GUIDs (Globally Unique Identifier) associated with the drawn curves. Extract the GUIDs through the \textbf{GUID} component. \textbf{QByLayer} allows for a single force density value to be assigned to all edges in a given layer; \textbf{Update} updates the geometry in Rhino to the solved network geometry (either from \textbf{AnalyzeSimple} or \textbf{FDMlisten}).
+
+\vspace{2em}
+
+See \texttt{3\_directmanipulation.gh} for an example.
+
+\newpage
+\subsection{Optimization parameters}
+When using remote analysis, the optional input \textbf{Params} define the parameters for optimization. The input \textbf{OBJ} takes any combination of the (currently) 8 possible objective functions. All objective functions take an associated relative numeric weight; some objective functions also take in a numeric threshold value for minimum/maximum objectives.
+
+\begin{figure*}[h]
+    \centering
+    \includegraphics*[width=\textwidth]{Figures/optim}
+\end{figure*}
+
+The other inputs are self-explanatory: stopping tolerance for optimization, maximum number of iterations, whether or not to send back intermediate results from the server, etc. Couple of notes:
+\begin{enumerate}
+    \item For compression networks, make sure you adjust the lower bound \textbf{LB} to a negative value. The default values for both \textbf{LB} and \textbf{UB} are positive.
+    \item Check the Julia REPL for information of the current problem: optimization provides iteration count information and when the optimizer is finished; if you receive an ``INVALID INPUT" message, check the bounds parameters.
+    \item The first time using a new objective function will have some delay; subsequent uses will be very fast.
+\end{enumerate}
+
+\vspace{2em}
+
+See \texttt{4\_optimization.gh}, \texttt{5\_advanced.gh}, and \texttt{5\_advanced.3dm} for examples.
