@@ -51,14 +51,13 @@ This plugin was developed through the Digital Structures research group at the M
 \section{Installation} \label{sec:installation}
 
 \subsection{Installing FDMremote\_GH} \label{installgh}
-\begin{center}
-    {\color{kpink} FDMremote has only been tested on Windows computers + Rhino 7.}
-\end{center}
+FDMremote has been tested on Rhino 7 for Windows and Mac.
 
 \begin{enumerate}
     \item Download the Grasshopper plugin \href{https://www.food4rhino.com/en/app/fdmremote?lang=en}{here}
-    \item As always, \texttt{right click > Properties > Unblock} the .zip file before extraction.
+    \item For Windows, \texttt{right click > Properties > Unblock} the .zip file before extraction.
     \item Extract the .zip file into your Grasshopper components folder. You can find this folder by opening Grasshopper and: \texttt{File > Special Folders > Components Folder}.
+ {\color{kpink}  \subitem Extract \textbf{all} files into the folder, not just the \texttt{.gha} plugin file.}
     \item Open Grasshopper and verify that you have a "FDMremote" tab on the top ribbon.
 \end{enumerate}
 
@@ -69,9 +68,10 @@ To achieve much faster analysis, design more complex networks, and perform optim
 
 \begin{enumerate}
     \item Download Julia \href{https://julialang.org/downloads/}{here}. For convenience, add Julia to your PATH when prompted.
-    \item Open Julia (Windows + Julia to search for it in your start menu). This terminal looking thing is the Julia REPL (Read-Evaluate-Print Loop). It's a way of interfacing with the Julia engine.
-    \item Enter Package Mode by typing \texttt{]} in the Julia REPL.
-    \item Add FDMremote.jl by typing:\\ \texttt{add https://github.com/keithjlee/FDMremote} and pressing enter.
+    \item Open Julia (Click the windows button and search for julia). This terminal looking thing is the Julia REPL (Read-Evaluate-Print Loop). It's a way of interfacing with the Julia engine.
+    \item Enter Package Mode by typing \texttt{]} in the Julia REPL. The prompt should change from ``\texttt{julia>}" to ``\texttt{(@v1.8) pkg>}"
+    \item Add FDMremote.jl by typing:\\ \texttt{add https://github.com/keithjlee/FDMremote}\\ and pressing enter.
+    \item Exit package mode by pressing backspace. 
 \end{enumerate}
 
  You've now unlocked the full potential of FDMremote! See the next section to get started.
